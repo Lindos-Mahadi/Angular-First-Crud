@@ -6,7 +6,6 @@ import { ListRestoComponent } from './list-resto/list-resto.component';
 import { RegisterRestoComponent } from './register-resto/register-resto.component';
 
 
-
 @NgModule({
   declarations: [
     AddRestoComponent,
@@ -15,13 +14,13 @@ import { RegisterRestoComponent } from './register-resto/register-resto.componen
     RegisterRestoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     AddRestoComponent,
     UpdateRestoComponent,
     ListRestoComponent,
-    RegisterRestoComponent
+    RegisterRestoComponent,
   ]
 })
 export class HeaderModule { }
