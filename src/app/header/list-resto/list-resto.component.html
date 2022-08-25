@@ -18,7 +18,9 @@
             <td>
                 <i (click)="deleteResto(item.id)" style="color: salmon; margin-right: 20px; font-size: 25px;"
                     class="fa fa-trash"></i>
-                <i style="color: sienna; margin-right: 20px; font-size: 25px;" class="fa fa-pencil"></i>
+                <a routerLink="/update/{{item.id}}">
+                    <i style="color: sienna; margin-right: 20px; font-size: 25px;" class="fa fa-pencil"></i>
+                </a>
             </td>
         </tr>
     </tbody>

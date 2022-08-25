@@ -5,6 +5,7 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { RegisterRestoComponent } from './register-resto/register-resto.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     AddRestoComponent,
