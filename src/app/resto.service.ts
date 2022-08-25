@@ -33,5 +33,9 @@ export class RestoService {
   getCurrentResto(id: any) {
     return this.http.get(`${this.url}/${id}`)
   }
+  // UPDATE CURRENT ITEM
+  updateCurrentResto(id: any, data: any) {
+    return this.http.put(`${this.url}/${id}`, data)
+  }
 
 }

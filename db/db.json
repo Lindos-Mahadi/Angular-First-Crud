@@ -37,9 +37,9 @@
       "id": 6
     },
     {
-      "name": "Ali Baba Restaurant",
+      "name": "Ali Baba",
       "email": "Ali@test.com",
-      "address": "ALi.A AA",
+      "address": "ALi.A",
       "id": 7
     },
     {
@@ -57,7 +57,7 @@
     {
       "name": "Lal Khana",
       "email": "Lal@test.com",
-      "address": "Lal Town",
+      "address": "Lalbug Town",
       "id": 10
     }
   ]

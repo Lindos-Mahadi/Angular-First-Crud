@@ -1,8 +1,14 @@
-<h1 class="text-center text-uppercase my-3">update-restaurant</h1>
+<h1 class="text-center text-uppercase my-3">update restaurant</h1>
 <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <form [formGroup]="editResto">
+        <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Success!</strong> Your data has been updated successfully.
+            <button (click)="alertClose()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">X</span>
+            </button>
+        </div>
+        <form [formGroup]="editResto" (ngSubmit)="updateCollection()">
             <div class="form-group">
                 <label for="exampleInputEmail1">Restaurant Name</label>
                 <input type="text" class="form-control" formControlName="name" placeholder="Restaurant Name" />

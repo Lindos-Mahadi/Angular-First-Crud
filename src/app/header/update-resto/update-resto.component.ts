@@ -22,7 +22,7 @@ export class UpdateRestoComponent implements OnInit {
 
   ngOnInit(): void {
 
-    // CURRENT LOAD IN FIELD
+    // LOAD CURRENT DATA INTO INPUT FIELD
     console.log(this.router.snapshot.params['id']);
     this.resto.getCurrentResto(this.router.snapshot.params['id']).subscribe((result: any) => {
       console.log(result);
@@ -33,6 +33,17 @@ export class UpdateRestoComponent implements OnInit {
       })
     })
   }
-
+  // UPDATE DATA 
+  updateCollection() {
+    console.log(this.editResto.value);
+    this.resto.updateCurrentResto(this.router.snapshot.params['id'], this.editResto.value).subscribe((result) => {
+      this.alert = true;
+      console.warn(result);
+    })
+    this.editResto.reset({});
+  }
+  alertClose() {
+    this.alert = false
+  }
 }
 
