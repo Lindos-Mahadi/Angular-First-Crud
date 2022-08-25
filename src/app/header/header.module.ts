@@ -16,6 +16,12 @@ import { RegisterRestoComponent } from './register-resto/register-resto.componen
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    AddRestoComponent,
+    UpdateRestoComponent,
+    ListRestoComponent,
+    RegisterRestoComponent
   ]
 })
 export class HeaderModule { }
