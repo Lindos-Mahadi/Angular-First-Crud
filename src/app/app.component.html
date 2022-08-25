@@ -1,33 +1,39 @@
 <nav class="navbar navbar-expand-lg bg-danger">
   <div class="container">
-    <a class="navbar-brand text-light" href="#">Resto App</a>
+    <a class="navbar-brand text-light" routerLink="">Resto App</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
       aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarScroll">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a routerLink="add" class="nav-link text-light">Add Resto</a>
         </li>
         <li class="nav-item">
           <a routerLink="list" class="nav-link text-light">List Resto</a>
-        </li>
+        </li> 
         <li class="nav-item">
           <a routerLink="register" class="nav-link text-light">Register Resto</a>
-        </li>
-        <!-- <li class="nav-item">
+        </li><li class="nav-item">
           <a routerLink="update" class="nav-link text-light">Update Resto</a>
         </li> -->
       </ul>
-      <form class="d-flex" role="search">
+      <!-- <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-secondary text-light" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
 <!-- RENDARING PAGE -->
 <div class="container">
+  <!-- RENDARING BODY -->
   <router-outlet></router-outlet>
 </div>
+
+<footer class="navbar fixed-top navbar-light bg-danger">
+  <div class="container">
+    <p class="lead text-light"> Register your restaurant with us</p>
+  </div>
+</footer>

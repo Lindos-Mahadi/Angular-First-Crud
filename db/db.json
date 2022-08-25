@@ -67,6 +67,12 @@
       "email": "lindos@gmail.com",
       "password": "12345",
       "id": 1
+    },
+    {
+      "name": "mahadi",
+      "email": "mahadi@gmail.com",
+      "password": "456",
+      "id": 2
     }
   ]
 }

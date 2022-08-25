@@ -1,12 +1,12 @@
-<p>list-resto works!</p>
-
+<h1 class="text-center text-uppercase my3">all restaurant list here</h1>
 <table class="table">
     <thead>
-        <tr>
+        <tr style="color: sienna; margin-right: 20px; font-size: 25px;">
             <th scope="col">#</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
             <th scope="col">Address</th>
+            <th scope="col">Operations</th>
         </tr>
     </thead>
     <tbody>
@@ -20,6 +20,13 @@
                     class="fa fa-trash"></i>
                 <a routerLink="/update/{{item.id}}">
                     <i style="color: sienna; margin-right: 20px; font-size: 25px;" class="fa fa-pencil"></i>
+                </a>
+                <a routerLink="/add">
+                    <i style="color: darkcyan; margin-right: 20px; font-size: 25px;"
+                        class="fa-solid fa-circle-plus"></i>
+                </a>
+                <a routerLink="/register">
+                    <i style="color: fuchsia; margin-right: 20px; font-size: 25px;" class="fa-solid fa-registered"></i>
                 </a>
             </td>
         </tr>
