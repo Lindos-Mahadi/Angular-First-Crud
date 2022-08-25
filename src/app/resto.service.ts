@@ -15,4 +15,11 @@ export class RestoService {
     return this.http.get(this.url);
   }
 
+  // POST ITEM SERVICE
+
+  addSaveResto(data: any) {
+    // console.log(data);
+    return this.http.post(this.url, data);
+  }
+
 }

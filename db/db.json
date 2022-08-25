@@ -1,34 +1,46 @@
 {
-    "restaurants": [
-        {
-            "id": 1,
-            "name": "KFC restaurants",
-            "email": "kfc@test.com",
-            "address": "KFC town"
-        },
-        {
-            "id": 2,
-            "name": "FFC restaurants",
-            "email": "Ffc@test.com",
-            "address": "FFC town"
-        },
-        {
-            "id": 3,
-            "name": "GFC restaurants",
-            "email": "Gfc@test.com",
-            "address": "GFC town"
-        },
-        {
-            "id": 4,
-            "name": "HFC restaurants",
-            "email": "Hfc@test.com",
-            "address": "HFC town"
-        },
-        {
-            "id": 5,
-            "name": "LFC restaurants",
-            "email": "Lfc@test.com",
-            "address": "LFC town"
-        }
-    ]
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC restaurants",
+      "email": "kfc@test.com",
+      "address": "KFC town"
+    },
+    {
+      "id": 2,
+      "name": "FFC restaurants",
+      "email": "Ffc@test.com",
+      "address": "FFC town"
+    },
+    {
+      "id": 3,
+      "name": "GFC restaurants",
+      "email": "Gfc@test.com",
+      "address": "GFC town"
+    },
+    {
+      "id": 4,
+      "name": "HFC restaurants",
+      "email": "Hfc@test.com",
+      "address": "HFC town"
+    },
+    {
+      "id": 5,
+      "name": "LFC restaurants",
+      "email": "Lfc@test.com",
+      "address": "LFC town"
+    },
+    {
+      "name": "Ali Baba Restaurant",
+      "email": "Ali@test.com",
+      "address": "ALi.A",
+      "id": 6
+    },
+    {
+      "name": "Ali Baba Restaurant",
+      "email": "Ali@test.com",
+      "address": "ALi.A",
+      "id": 7
+    }
+  ]
 }

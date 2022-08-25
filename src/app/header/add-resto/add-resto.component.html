@@ -1,8 +1,9 @@
-<h1 class="text-center text-uppercase my-3">add new restaurant!</h1>
+<h1 class="text-center text-uppercase my-3">add new Restaurant!</h1>
 <div class="row">
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <form>
+        <!--  -->
+        <form [formGroup]="addResto" (ngSubmit)="addSaveResto()">
             <div class="form-group">
                 <label for="exampleInputEmail1">Restaurant Name</label>
                 <input type="text" class="form-control" formControlName="name" placeholder="Restaurant Name" />
@@ -16,7 +17,7 @@
                 <input type="text" class="form-control" formControlName="address" placeholder="Address" />
             </div>
             <br />
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Add New Item</button>
         </form>
     </div>
     <div class="col-md-3"></div>
