@@ -22,4 +22,11 @@ export class RestoService {
     return this.http.post(this.url, data);
   }
 
+  //  DELETE ITEM
+
+  deleteResto(id: any) {
+    return this.http.delete(`${this.url}/${id}`);
+  }
+
+
 }
