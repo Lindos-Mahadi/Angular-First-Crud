@@ -29,6 +29,36 @@
       "name": "LFC restaurants",
       "email": "Lfc@test.com",
       "address": "LFC town"
+    },
+    {
+      "name": "Ali Baba Restaurant",
+      "email": "Ali@test.com",
+      "address": "ALi.A",
+      "id": 6
+    },
+    {
+      "name": "Ali Baba Restaurant",
+      "email": "Ali@test.com",
+      "address": "ALi.A",
+      "id": 7
+    },
+    {
+      "name": "Jali Baba",
+      "email": "Jali@gmail.com",
+      "address": "Jali Town",
+      "id": 8
+    },
+    {
+      "name": "Kana Restaurant",
+      "email": "Kana@test.com",
+      "address": "Kana Town",
+      "id": 9
+    },
+    {
+      "name": "Lal Khana",
+      "email": "Lal@test.com",
+      "address": "Lal Town",
+      "id": 10
     }
   ]
 }
