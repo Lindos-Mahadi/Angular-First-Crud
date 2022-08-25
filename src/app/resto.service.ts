@@ -8,6 +8,8 @@ export class RestoService {
 
   url = "http://localhost:3000/restaurants"
 
+  rootUrl = "http://localhost:3000/"
+
   constructor(private http: HttpClient) { }
 
   getList() {
@@ -36,6 +38,11 @@ export class RestoService {
   // UPDATE CURRENT ITEM
   updateCurrentResto(id: any, data: any) {
     return this.http.put(`${this.url}/${id}`, data)
+  }
+
+  // REGISTER FORM
+  registerUser(data: any) {
+    return this.http.post(this.rootUrl + "users", data)
   }
 
 }

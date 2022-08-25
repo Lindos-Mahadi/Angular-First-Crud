@@ -60,5 +60,13 @@
       "address": "Lalbug Town",
       "id": 10
     }
+  ],
+  "users": [
+    {
+      "name": "lindos",
+      "email": "lindos@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
   ]
 }
